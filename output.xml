@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fsa:ResponseFsaType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fsa="urn://x-artefact-rosaccreditation-ru/rdc/1.0.2" xmlns:tns="urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2">
+    <fsa:RdcTr>
+        <tns:ApplicantFl xsi:nil="true"/>
+        <tns:ApplicantAl xsi:nil="true"/>
+        <tns:ApplicantAu xsi:nil="true"/>
+        <tns:DeclareAddInfo xsi:nil="true"/>
+    </fsa:RdcTr>
+</fsa:ResponseFsaType>
