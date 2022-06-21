@@ -15,12 +15,12 @@ import javax.xml.bind.annotation.XmlRootElement;
 @AllArgsConstructor
 @NoArgsConstructor
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlRootElement(name = "tns:Experts")
+@XmlRootElement(name = "Experts", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
 public class Experts {
-    @XmlElement(name = "tns:Surname")
+    @XmlElement(name = "Surname", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String surname;
-    @XmlElement(name = "tns:Name")
+    @XmlElement(name = "Name", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String name;
-    @XmlElement(name = "tns:Patronymic")
+    @XmlElement(name = "Patronymic", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String Patronymic;
 }

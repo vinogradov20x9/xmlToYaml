@@ -14,15 +14,15 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@XmlRootElement(name = "tns:Manufacturer")
+@XmlRootElement(name = "Manufacturer", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Manufacturer {
-    @XmlElement(name = "tns:Type")
+    @XmlElement(name = "Type", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String type;
-    @XmlElement(name = "tns:ManufacturerUl")
+    @XmlElement(name = "ManufacturerUl", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private ManufacturerUl manufacturerUl;
-    @XmlElement(name = "tns:ManufacturerAl")
+    @XmlElement(name = "ManufacturerAl", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private boolean manufacturerAl;
-    @XmlElement(name = "tns:ManufacturerFl")
+    @XmlElement(name = "ManufacturerFl", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private boolean manufacturerFl;
 }

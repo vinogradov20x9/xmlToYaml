@@ -15,14 +15,14 @@ import javax.xml.bind.annotation.XmlRootElement;
 @AllArgsConstructor
 @NoArgsConstructor
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlRootElement(name = "tns:BaseDeclaration")
+@XmlRootElement(name = "BaseDeclaration", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
 public class BaseDeclaration {
-    @XmlElement(name = "tns:Documents")
+    @XmlElement(name = "Documents", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String documents;
-    @XmlElement(name = "tns:Schema")
+    @XmlElement(name = "Schema", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String schema;
-    @XmlElement(name = "tns:Base")
+    @XmlElement(name = "Base", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private Base base;
-    @XmlElement(name = "tns:Laboratory")
+    @XmlElement(name = "Laboratory", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private Laboratory laboratory;
 }

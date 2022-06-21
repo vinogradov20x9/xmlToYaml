@@ -12,9 +12,9 @@ import java.io.Serializable;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@XmlRootElement(name = "fsa:ResponseFsaType")
+@XmlRootElement(name = "ResponseFsaType", namespace="urn://x-artefact-rosaccreditation-ru/rdc/1.0.2")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class ResponseFsaType implements Serializable {
-    @XmlElement(name = "fsa:RdcTr")
-    private Object rdcTr;
+    @XmlElement(name = "RdcTr", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/1.0.2")
+    private RdcTr rdcTr;
 }

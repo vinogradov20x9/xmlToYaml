@@ -14,11 +14,11 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@XmlRootElement(name = "tns:Applicant")
+@XmlRootElement(name = "Applicant", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Applicant {
-    @XmlElement(name = "tns:ApplicantType")
+    @XmlElement(name = "ApplicantType", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String applicantType;
-    @XmlElement(name = "tns:DeclarantType")
+    @XmlElement(name = "DeclarantType", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String declarantType;
 }

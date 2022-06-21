@@ -15,30 +15,30 @@ import javax.xml.bind.annotation.XmlRootElement;
 @AllArgsConstructor
 @NoArgsConstructor
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlRootElement(name = "tns:CertificationOrgan")
+@XmlRootElement(name = "CertificationOrgan", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
 public class CertificationOrgan {
-    @XmlElement(name = "tns:FullName")
+    @XmlElement(name = "FullName", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String fullName;
-    @XmlElement(name = "tns:Number")
+    @XmlElement(name = "Number", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String mumber;
-    @XmlElement(name = "tns:DateReg")
+    @XmlElement(name = "DateReg", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String dateReg;
-    @XmlElement(name = "tns:Organ")
+    @XmlElement(name = "Organ", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String organ;
-    @XmlElement(name = "tns:Head")
+    @XmlElement(name = "Head", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String head;
-    @XmlElement(name = "tns:AddressLegal")
+    @XmlElement(name = "AddressLegal", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String addressLegal;
-    @XmlElement(name = "tns:Address")
+    @XmlElement(name = "Address", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String address;
-    @XmlElement(name = "tns:Phone")
+    @XmlElement(name = "Phone", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String phone;
-    @XmlElement(name = "tns:Fax")
+    @XmlElement(name = "Fax", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String fax;
-    @XmlElement(name = "tns:Email")
+    @XmlElement(name = "Email", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String email;
-    @XmlElement(name = "tns:Ogrn")
+    @XmlElement(name = "Ogrn", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private boolean ogrn;
-    @XmlElement(name = "tns:Experts")
+    @XmlElement(name = "Experts", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private Experts experts;
 }

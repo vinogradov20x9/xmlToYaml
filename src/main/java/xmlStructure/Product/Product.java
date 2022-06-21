@@ -14,33 +14,33 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@XmlRootElement(name = "tns:Product")
+@XmlRootElement(name = "Product", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Product {
-    @XmlElement(name = "tns:DeclareType")
+    @XmlElement(name = "DeclareType", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String declareType;
-    @XmlElement(name = "tns:DcOriginType")
+    @XmlElement(name = "DcOriginType", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String dcOriginType;
-    @XmlElement(name = "tns:Name")
+    @XmlElement(name = "Name", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String name;
-    @XmlElement(name = "tns:ProductInfo")
+    @XmlElement(name = "ProductInfo", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String productInfo;
-    @XmlElement(name = "tns:Okp")
+    @XmlElement(name = "Okp", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String okp;
-    @XmlElement(name = "tns:OkpdText")
+    @XmlElement(name = "OkpdText", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private boolean okpdText;
-    @XmlElement(name = "tns:Standart")
+    @XmlElement(name = "Standart", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private boolean standart;
-    @XmlElement(name = "tns:SizeNumber")
+    @XmlElement(name = "SizeNumber", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String sizeNumber;
-    @XmlElement(name = "tns:DetailsShippingDocumentation")
+    @XmlElement(name = "DetailsShippingDocumentation", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private boolean detailsShippingDocumentation;
-    @XmlElement(name = "tns:ContractInfo")
+    @XmlElement(name = "ContractInfo", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private boolean contractInfo;
-    @XmlElement(name = "tns:Info")
+    @XmlElement(name = "Info", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String info;
-    @XmlElement(name = "tns:PlaceMark")
+    @XmlElement(name = "PlaceMark", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private boolean placeMark;
-    @XmlElement(name = "tns:TechRegs")
+    @XmlElement(name = "TechRegs", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private TechRegs techRegs;
 }

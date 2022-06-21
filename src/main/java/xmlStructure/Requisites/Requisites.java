@@ -15,22 +15,22 @@ import javax.xml.bind.annotation.XmlRootElement;
 @AllArgsConstructor
 @NoArgsConstructor
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlRootElement(name = "tns:Requisites")
+@XmlRootElement(name = "Requisites", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
 public class Requisites {
-    @XmlElement(name = "tns:Status")
+    @XmlElement(name = "Status", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String status;
-    @XmlElement(name = "tns:Section")
+    @XmlElement(name = "Section", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String section;
-    @XmlElement(name = "tns:Number")
+    @XmlElement(name = "Number", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String number;
-    @XmlElement(name = "tns:DateReg")
+    @XmlElement(name = "DateReg", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String dateReg;
-    @XmlElement(name = "tns:DateExpiry")
+    @XmlElement(name = "DateExpiry", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String dateExpiry;
-    @XmlElement(name = "tns:NoExpiry", nillable = true)
+    @XmlElement(name = "NoExpiry", nillable = true, namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String noExpiry;
-    @XmlElement(name = "tns:BaseDeclaration")
-    private String baseDeclaration;
-    @XmlElement(name = "tns:Discontinued")
+    @XmlElement(name = "BaseDeclaration", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
+    private BaseDeclaration baseDeclaration;
+    @XmlElement(name = "Discontinued", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String discontinued;
 }

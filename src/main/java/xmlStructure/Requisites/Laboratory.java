@@ -15,18 +15,18 @@ import javax.xml.bind.annotation.XmlRootElement;
 @AllArgsConstructor
 @NoArgsConstructor
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlRootElement(name = "tns:Laboratory")
+@XmlRootElement(name = "Laboratory", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
 public class Laboratory {
-    @XmlElement(name = "tns:NumberReg")
+    @XmlElement(name = "NumberReg", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String numberReg;
-    @XmlElement(name = "tns:Name")
+    @XmlElement(name = "Name", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String name;
-    @XmlElement(name = "tns:DateReg")
+    @XmlElement(name = "DateReg", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String dateReg;
-    @XmlElement(name = "tns:DateExpiry")
+    @XmlElement(name = "DateExpiry", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private String dateExpiry;
-    @XmlElement(name = "tns:Document")
+    @XmlElement(name = "Document", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private boolean document;
-    @XmlElement(name = "tns:Info")
+    @XmlElement(name = "Info", namespace = "urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2")
     private boolean info;
 }
